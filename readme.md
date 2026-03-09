@@ -5,8 +5,8 @@ steps done --
 2. base model selection : Llama-3.1-8B
 3. finetuning knowledge refinement
 4. baseline inference (require access permission)
-5. 
-
+5. dataset collection : ChangeMyView , PersuasionForGood, CaSiNo (Negotiation + Persuasion) 
+6. 
 
 
 
@@ -16,7 +16,7 @@ steps to follow --
 2. Choose base model
 3. Run baseline inference
 4. Collect datasets
-5. Design dataset schema
+5. Design dataset schema, synthetic data creation
 6. Clean & preprocess dataset
 7. Fine-tune using QLoRA
 8. Evaluate base vs fine-tuned model
