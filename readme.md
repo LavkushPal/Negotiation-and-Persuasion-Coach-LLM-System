@@ -1,14 +1,18 @@
-<h1> Negotiation Coach LLM </h1>
+<h1> Negotiation & Persuasion Coach LLM System </h1>
 
 
-<h4> Your Negotiation Coach LLM should learn: </h4>
+
+<h3> Your Negotiation Coach LLM should learn: </h3>
 
 <p> 1. persuasion techniques </p>
 <p> 2. counter arguments (negotiation) </p>
 <p> 3. conversational negotiation and persuasion </p>
 
 
-steps done --
+
+
+<h3> steps done -- </h3>
+
 1. setup and configuration 
 2. base model selection : Llama-3.1-8B
 3. finetuning knowledge refinement
@@ -16,10 +20,12 @@ steps done --
 5. dataset collection : ChangeMyView , PersuasionForGood, CaSiNo (Negotiation + Persuasion) 
 6. dataset formating : cmy-6912(ChangeMyView), pfg-9583(PersuasionForGood), casino-6966(CaSiNo) - total : 23461 rows in training data
 7. SFT(finetuning) training setup and configuration
+8. dataset shuffled and splitted to training,validation,testing
+9. parameters are finally configured, ready to train our QLoRA model
 
 
 
-steps to follow --
+<h3> steps to follow -- </h3>
 
 1. Setup environment
 2. Choose base model
@@ -36,8 +42,11 @@ steps to follow --
 
 
 
-optimization and improvement -- 
+
+<h3> optimization and improvement -- </h3>
 
 1. train on synthetic data
 2. train model to ask at most 3 follow ups
 3. build system architecture
+4. evaluation of responses
+5. show up numbers optimized by x percentage 
